@@ -1,0 +1,558 @@
+package gridvis;
+import java.awt.Color;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
+import java.util.List;
+import java.util.ArrayList;
+
+
+
+	public class DataProbleme {
+		String File;
+		ArrayList<String> workers;
+		int nbWorker;
+		ArrayList<Integer>[][] tableau;
+		ArrayList<Float>[][] tableaufit;
+		ArrayList<Evenement> exp;
+		int fitness = 0;
+
+		
+		DataProbleme(String fileName)
+		{
+			File=fileName;
+		}
+		
+		public void remplir_Probleme1() throws IOException
+		{  
+			ArrayList<String> wkers = new ArrayList<String>();
+			try
+			{
+				String chemin = File;
+				BufferedReader fichier_source = new BufferedReader(new FileReader(chemin));
+				String chaine;
+				
+				
+				
+				while((chaine = fichier_source.readLine())!= null)
+				{
+     
+      
+					String[] tabChaine = chaine.split(",");
+					if(tabChaine.length > 2 ){
+						
+					if(!(wkers.contains(tabChaine[1]))) wkers.add(tabChaine[1]);
+					if(!(wkers.contains(tabChaine[2]))) wkers.add(tabChaine[2]);
+					}
+      
+					// Afficher le contenu du tableau
+					for (String val : tabChaine)
+					{
+						//System.out.println(val);
+					}
+				}	
+				
+				fichier_source.close();                 
+			}
+			catch (FileNotFoundException e)
+			{
+				System.out.println("Le fichier est introuvable !");
+			}
+			
+			nbWorker=wkers.size();
+			System.out.println(nbWorker);
+			for(String val : wkers)
+				{
+					//System.out.println(val);	
+				}
+			//lextri(wkers);
+			workers=wkers;	
+		}
+
+		
+		public void remplir_Probleme2() throws IOException
+		{  
+			exp=new ArrayList<Evenement>();
+			ArrayList<Integer> [ ][ ] tab= new ArrayList[nbWorker][nbWorker];
+			ArrayList<Float> [ ][ ] tabf= new ArrayList[nbWorker][nbWorker];
+			for(int k=0;k<nbWorker;k++)
+			{
+			for(int l=0;l<nbWorker;l++)
+				{
+				 	tab[k][l]= new ArrayList<Integer>();
+				 	tabf[k][l]= new ArrayList<Float>();
+				}
+			}
+			
+			try
+			{
+				String chemin = File;
+				BufferedReader fichier_source = new BufferedReader(new FileReader(chemin));
+				String chaine;
+  
+				
+				while((chaine = fichier_source.readLine())!= null)
+				{
+					String[] tabChaine = chaine.split(",");
+					if(tabChaine.length>2)
+					{
+					int src = workers.indexOf(tabChaine[1]);
+					int dest = workers.indexOf(tabChaine[2]);
+					Integer time = new Integer(tabChaine[0]);
+					place(new Evenement(time,src,dest));
+					
+					if((src != -1) && (dest != -1))
+					tab[src][dest].add(time);
+					
+					if(tabChaine.length>3)
+					{
+						fitness=1;
+					Float fit = new Float(tabChaine[3]);
+					if((src != -1) && (dest != -1))
+						tabf[src][dest].add(fit);
+					}
+					}
+				}
+				
+				for(int k=0;k<nbWorker;k++)
+					{
+					for(int l=0;l<nbWorker;l++)
+						{
+						 for(Integer val : tab[k][l])
+						 {
+						 	//System.out.println(val.intValue());	
+						 }
+						}
+					}
+				
+				fichier_source.close();                 
+			}
+			catch (FileNotFoundException e)
+			{
+				System.out.println("Le fichier est introuvable !");
+			}
+			
+			tableau=tab;
+			tableaufit =tabf; 
+		}
+	
+	int getnbWorker()
+		{
+		return nbWorker;
+		}
+	
+	ArrayList<Integer> get_connections(int t1,int t2)
+		{   ArrayList<Integer> connect=new ArrayList<Integer>();
+			for(int k=0;k<nbWorker;k++)
+			{
+				for(int l=0;l<nbWorker;l++)
+				{
+					connect.add(get_nb_connection_t1_t2(k,l,t1,t2));	 
+				}
+			}
+			
+			return connect;
+		}
+	
+	ArrayList<Integer> get_moyConnections(int t1,int t2,ArrayList<Integer> nb,
+			ArrayList<Integer> moyConnect, int tmin)
+	{   moyConnect.clear();
+		for(int k=0;k<nbWorker;k++)
+		{
+			for(int l=0;l<nbWorker;l++)
+			{
+				moyConnect.add(get_moy_connection_t1_t2(k,l,t1,t2,nb.get(k*nbWorker+l),tmin));	 
+			}
+		}
+		
+		return moyConnect;
+	}
+	
+	int get_max_nb_echange()
+		{
+		int max=tableau[0][0].size();
+		for(int k=0;k<nbWorker;k++)
+		{
+		for(int l=0;l<nbWorker;l++)
+			{
+			 	if(tableau[k][l].size()>max) max=tableau[k][l].size();	 
+			}
+		}
+		return max;
+		}
+	
+	int get_max_nb_echange(int t1,int t2)
+	{
+	int max=0;
+	for(int k=0;k<nbWorker;k++)
+	{
+	for(int l=0;l<nbWorker;l++)
+		{
+			int tmp = 0;
+			for(int i=0;i<tableau[k][l].size();i++)
+				{
+					if(tableau[k][l].get(i) <= t2 && tableau[k][l].get(i) >= t1)
+						tmp++;
+				}
+			if(tmp>max)
+				max=tmp;	 
+		}
+	}
+	return max;
+	}
+	
+	ArrayList<String> get_workers()
+	{
+		return workers;
+	}
+	
+	int get_timemin()
+	{
+	int min=0;
+	for(int k=0;k<nbWorker;k++)
+	{
+	for(int l=0;l<nbWorker;l++)
+		{   for(int j=0;j<tableau[k][l].size();j++)
+		{
+		 	if(tableau[k][l].get(j)< min || min==0) min=tableau[k][l].get(j);	 
+		}
+		}
+	}
+	return min;
+	}
+	
+	int get_timemax()
+	{
+	int max=0;
+	for(int k=0;k<nbWorker;k++)
+	{
+	for(int l=0;l<nbWorker;l++)
+		{   for(int j=0;j<tableau[k][l].size();j++)
+		{
+		 	if(tableau[k][l].get(j)> max) max=tableau[k][l].get(j);	 
+		}
+		}
+	}
+	return max;
+	}
+	
+	int[][] get_matrice_distance(int t1, int t2)
+		{
+		int[][] tabCoul = new int[nbWorker][nbWorker];
+		int[][] tabDist = new int[nbWorker][nbWorker];
+		int max = get_max_nb_echange();
+		if(max != 0)
+    	{
+		ArrayList<Integer> connec = get_connections(t1,t2);
+		for(int i=0;i<nbWorker;i++)
+			for(int j=0;j<nbWorker;j++)
+			{
+				float nc= (float)(connec.get(i*(nbWorker)+j).intValue())/(float)(max);
+				tabCoul[i][j]=255-(int)(nc*255);
+			}
+		
+		for(int i=0;i<nbWorker;i++)
+			for(int j=0;j<nbWorker;j++)
+			{
+				int dist=0;
+				for(int l=0;l<nbWorker;l++)
+					{
+						if(tabCoul[i][l]-tabCoul[j][l]>0)
+							dist+=tabCoul[i][l]-tabCoul[j][l];
+						else
+							dist+=tabCoul[j][l]-tabCoul[i][l];
+					}
+				tabDist[i][j]=dist;
+			}
+    	}
+		return tabDist;
+		}
+	
+	
+	int get_nb_connection_t1_t2(int src, int dest, int t1,int t2)
+	{
+		int nbConnection=0;
+		for(int k=0;k< tableau[src][dest].size();k++)
+		{
+		if (tableau[src][dest].get(k)>=t1 && tableau[src][dest].get(k)<=t2) nbConnection ++;
+		}
+		return nbConnection;
+	}
+	
+	int get_moy_connection_t1_t2(int src, int dest, int t1,int t2, int nbConnection,int tmin)
+	{
+		 float moy=0;
+		//int max=0;
+		for(int k=0;k< tableau[src][dest].size();k++)
+		{
+		if (tableau[src][dest].get(k)>=t1 && tableau[src][dest].get(k)<=t2)
+				//&& tableau[src][dest].get(k)> max) 
+			{
+			//max=tableau[src][dest].get(k);
+			moy+=(float)tableau[src][dest].get(k)/(float)nbConnection;
+			}
+		}
+		//return max;
+		return (int)moy - tmin;
+	}
+	
+	ArrayList<Integer> get_echange(int src, int dest)
+	{   
+		ArrayList<Integer> res=new ArrayList<Integer>();
+		
+		res=tableau[src][dest];
+		
+		return res;
+	}
+	
+	ArrayList<Float> get_fitness(int src, int dest)
+	{   
+		ArrayList<Float> res=new ArrayList<Float>();
+		
+		res=tableaufit[src][dest];
+		
+		return res;
+	}
+	
+	void swap(List<String> v,int i, int j){
+		String tmp=v.get(i);
+		v.set(i,v.get(j));
+		v.set(j,tmp);
+	}
+	
+	void swapv(int [] v,int i, int j){
+		int tmp=v[i];
+		v[i]=v[j];
+		v[j]=tmp;
+	}
+	
+	void lextri(List<String> v)
+	{
+		for(int k=0;k<(v.size());k++)
+		{
+			for(int l=0;l<(v.size()-k-1);l++)
+			{
+				if(v.get(l).compareTo(v.get(l+1)) > 0) swap(v,l,l+1);
+			}
+		}
+	}
+	
+	void timetri(ArrayList<String> v)
+	{ int mintab[ ]=new int [nbWorker];
+		for(int i=0;i<nbWorker;i++)
+		{
+			mintab[i]=this.get_timemax();
+		
+			for(int j=0;j<nbWorker;j++)
+			{ 
+				for(int k=0;k< tableau[i][j].size();k++)
+				{
+				if(tableau[i][j].get(k) < mintab[i]) 
+					{
+						mintab[i]=tableau[i][j].get(k);
+						
+					}
+				}
+			}
+			
+		}
+		
+		for(int k=0;k<(v.size());k++)
+			{
+				for(int l=0;l<(v.size()-k-1);l++)
+				{
+					if(mintab[l]>mintab[l+1] ) {swap(v,l,l+1);swapv(mintab,l,l+1);}
+				}
+			} 
+			
+	}
+	
+	void timetri2(ArrayList<String> v)
+	{ int maxtab[ ]=new int [nbWorker];
+		for(int i=0;i<nbWorker;i++)
+		{
+			maxtab[i]=0;
+		
+			for(int j=0;j<nbWorker;j++)
+			{ 
+				for(int k=0;k< tableau[i][j].size();k++)
+				{
+				if(tableau[i][j].get(k) > maxtab[i]) 
+					{
+						maxtab[i]=tableau[i][j].get(k);
+						
+					}
+				}
+			}
+			
+		}
+		
+		for(int k=0;k<(v.size());k++)
+			{
+				for(int l=0;l<(v.size()-k-1);l++)
+				{
+					if(maxtab[l]>maxtab[l+1] ) {swap(v,l,l+1);swapv(maxtab,l,l+1);}
+				}
+			} 
+			
+	}
+	
+	void set_workers(ArrayList<String> v)
+	{
+		workers=v;
+	}
+	
+	String getFile()
+	{
+		return File;
+	}
+	
+	void setNbWorker(int n){
+		nbWorker=n;
+	}
+	
+	ArrayList<String> reorder(ArrayList<String> v, Integer[] order)
+	{
+		ArrayList<String> tmp= new ArrayList<String>();
+		for(int i=0;i<order.length;i++) tmp.add(v.get(order[i]));
+		return tmp;
+	}
+	
+	void place(Evenement e)
+	{
+		if (exp.size()==0) exp.add(e);
+		else
+		{
+			int index = 0;
+			while (exp.size()>index && e.getTime() > exp.get(index).getTime()) index++;
+			exp.add(index, e);
+		}
+	}
+
+	public float get_max_fit() {
+		float max=Float.NEGATIVE_INFINITY;
+		for(int k=0;k<nbWorker;k++)
+		{
+		for(int l=0;l<nbWorker;l++)
+			{   for(int j=0;j<tableaufit[k][l].size();j++)
+			{
+			 	if(tableaufit[k][l].get(j)> max) max=tableaufit[k][l].get(j);	 
+			}
+			}
+		}
+		return max;
+		
+		
+	}
+	
+	public float get_min_fit() {
+		float min=Float.POSITIVE_INFINITY;
+		for(int k=0;k<nbWorker;k++)
+		{
+		for(int l=0;l<nbWorker;l++)
+			{   for(int j=0;j<tableaufit[k][l].size();j++)
+			{
+			 	if(tableaufit[k][l].get(j)< min) min=tableaufit[k][l].get(j);	 
+			}
+			}
+		}
+		return min;
+		
+		
+	}
+
+	public ArrayList<Float> get_moyfConnections(int t1, int t2,
+			ArrayList<Integer> nb,
+			ArrayList<Float> moyfConnect)
+			{
+		if(fitness==1){
+		 moyfConnect.clear();
+			for(int k=0;k<nbWorker;k++)
+			{
+				for(int l=0;l<nbWorker;l++)
+				{
+					moyfConnect.add(get_moyf_connection_t1_t2(k,l,t1,t2,nb.get(k*nbWorker+l)));	 
+				}
+			}
+			
+			return moyfConnect;}
+		else return new ArrayList<Float>();
+		
+	}
+	
+	float get_moyf_connection_t1_t2(int src, int dest, int t1,int t2, int nbConnection)
+	{
+		 float moy=0;
+		for(int k=0;k< tableau[src][dest].size();k++)
+		{
+		if (tableau[src][dest].get(k)>=t1 && tableau[src][dest].get(k)<=t2)
+				
+		{
+			moy+=tableaufit[src][dest].get(k)/(float)nbConnection;
+			}
+		}
+		
+		return moy;
+	}
+
+	public List<Float> get_ordifit(int t1, int t2) {
+		List<Float> res = new ArrayList<Float>();
+		float tmp=0;
+        float nb=0;
+		for(int k=0;k<nbWorker;k++)
+		{	tmp=0; nb=0;
+			for(int l=0;l<nbWorker;l++)
+				{
+				   for(int j=0;j<tableaufit[k][l].size();j++)
+					{	
+						if(tableau[k][l].get(j)<= t2 && tableau[k][l].get(j)>=t1) 
+							{
+							tmp+=tableaufit[k][l].get(j);
+							
+							nb++;
+							}	 	
+					}	
+			}
+			if(nb!=0) res.add(tmp/nb);
+			else res.add((float)0);
+		}
+		return res;
+	}
+
+	public float get_max_fit(int t1, int t2) {
+		float max=Float.NEGATIVE_INFINITY;
+		for(int k=0;k<nbWorker;k++)
+		{
+		for(int l=0;l<nbWorker;l++)
+			{   for(int j=0;j<tableaufit[k][l].size();j++)
+			{
+			 	if(tableaufit[k][l].get(j)> max && tableau[k][l].get(j) > t1 && tableau[k][l].get(j) < t2) max=tableaufit[k][l].get(j);	 
+			}
+			}
+		}
+		return max;
+	}
+
+	public float get_min_fit(int t1, int t2) {
+		float min=Float.POSITIVE_INFINITY;
+		for(int k=0;k<nbWorker;k++)
+		{
+		for(int l=0;l<nbWorker;l++)
+			{   for(int j=0;j<tableaufit[k][l].size();j++)
+			{
+			 	if(tableaufit[k][l].get(j)< min&& tableau[k][l].get(j) > t1 && tableau[k][l].get(j) < t2) min=tableaufit[k][l].get(j);	 
+			}
+			}
+		}
+		return min;
+	}
+		
+	}
+
+ 
+     
+

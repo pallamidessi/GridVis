@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in `seq 1 30`
+do
+./../exe/bassinstats experiment$i/weierstrass2929Gen.txt experiment$i/weierstrassbest.csv experiment$i/weierstrasspart.txt
+
+done

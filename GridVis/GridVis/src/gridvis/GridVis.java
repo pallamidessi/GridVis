@@ -1,0 +1,40 @@
+package gridvis;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.swing.JFrame;
+
+public class GridVis {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+		File f = new File("");
+		File dir = new File(f.getAbsolutePath());
+
+		//Donner le fichier à regarder
+		DataProbleme pbTest= new DataProbleme(dir.getAbsolutePath() + "/data/connectionsFit100_send.txt");
+		
+		//Première lecture du fichier pour savoir quelles machines travaillent
+		pbTest.remplir_Probleme1();
+		//Deuxième lecture du fichier pour organiser les donées
+		pbTest.remplir_Probleme2();
+		//Obtention des temps minimaux et maximaux du problème
+		int tmi=pbTest.get_timemin();
+		int tma=pbTest.get_timemax();
+		
+		// Création de la fenêtre principale
+			GUI fen= new GUI(pbTest.getnbWorker(),pbTest.get_connections(tmi,tma),pbTest.get_moyConnections(tmi, tma,pbTest.get_connections(tmi,tma),new ArrayList<Integer>(),tmi),pbTest.get_moyfConnections(tmi, tma,pbTest.get_connections(tmi,tma),new ArrayList<Float>()),pbTest.get_max_nb_echange(),tmi,
+					tma, pbTest);
+		//Création de la fenêtre qui englobe les options 
+			Options op=new Options(pbTest,fen);
+		
+		
+	
+	}
+
+}

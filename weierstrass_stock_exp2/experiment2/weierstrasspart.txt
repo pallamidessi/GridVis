@@ -1,0 +1,1723 @@
+ Individu : NoGen 0 -- id 2 -- fitness 12.159 -- gainFitness 0
+ Individu : NoGen 0 -- id 3 -- fitness 11.784 -- gainFitness 0
+ Individu : NoGen 0 -- id 4 -- fitness 12.514 -- gainFitness 0
+ Individu : NoGen 0 -- id 7 -- fitness 11.416 -- gainFitness 0
+ Individu : NoGen 0 -- id 11 -- fitness 11.465 -- gainFitness 0
+ Individu : NoGen 0 -- id 31 -- fitness 13.781 -- gainFitness 0
+ Individu : NoGen 0 -- id 32 -- fitness 12.89 -- gainFitness 0
+ Individu : NoGen 0 -- id 38 -- fitness 12.402 -- gainFitness 0
+Member : id 2
+Member : id 3
+Member : id 4
+Member : id 7
+Member : id 11
+Member : id 31
+Member : id 32
+Member : id 38
+Mutation : NoGen 1 -- id_parent 7 -- id_mute 45
+Both : NoGen 1 -- parent1 11 -- parent2 31 -- son 61
+Cross : NoGen 1 -- parent1 3 -- parent2 38 -- son 65
+Individu : NoGen 1 -- id 45 -- fitness 11.416 -- gainFitness 0
+Individu : NoGen 1 -- id 61 -- fitness 10.301 -- gainFitness -2.322
+Individu : NoGen 1 -- id 65 -- fitness 10.809 -- gainFitness -1.284
+Member : id 65
+Member : id 61
+Member : id 11
+Member : id 45
+Member : id 7
+Member : id 3
+Member : id 2
+Member : id 4
+Member : id 32
+Clone : NoGen 2 -- id_parent 61 -- id_mute 81
+Both : NoGen 2 -- parent1 61 -- parent2 32 -- son 86
+Cross : NoGen 2 -- parent1 61 -- parent2 2 -- son 90
+Clone : NoGen 2 -- id_parent 65 -- id_mute 109
+Cross : NoGen 2 -- parent1 65 -- parent2 61 -- son 111
+Individu : NoGen 2 -- id 81 -- fitness 10.301 -- gainFitness 0
+Individu : NoGen 2 -- id 86 -- fitness 10.301 -- gainFitness 0
+Individu : NoGen 2 -- id 90 -- fitness 10.301 -- gainFitness 0
+Individu : NoGen 2 -- id 109 -- fitness 10.809 -- gainFitness 0
+Individu : NoGen 2 -- id 111 -- fitness 10.95 -- gainFitness 0.395
+Member : id 111
+Member : id 65
+Member : id 109
+Member : id 90
+Member : id 81
+Member : id 45
+Member : id 61
+Member : id 7
+Member : id 86
+Mutation : NoGen 3 -- id_parent 81 -- id_mute 135
+Cross : NoGen 3 -- parent1 61 -- parent2 81 -- son 142
+Both : NoGen 3 -- parent1 109 -- parent2 45 -- son 145
+Mutation : NoGen 3 -- id_parent 86 -- id_mute 147
+Individu : NoGen 3 -- id 135 -- fitness 10.301 -- gainFitness 0
+Individu : NoGen 3 -- id 142 -- fitness 10.301 -- gainFitness 0
+Individu : NoGen 3 -- id 145 -- fitness 10.187 -- gainFitness -0.623
+Individu : NoGen 3 -- id 147 -- fitness 10.185 -- gainFitness -0.116
+Member : id 142
+Member : id 135
+Member : id 147
+Member : id 86
+Member : id 81
+Member : id 61
+Member : id 65
+Member : id 109
+Member : id 145
+Member : id 90
+Cross : NoGen 4 -- parent1 145 -- parent2 90 -- son 164
+Cross : NoGen 4 -- parent1 147 -- parent2 111 -- son 167
+Cross : NoGen 4 -- parent1 142 -- parent2 147 -- son 185
+Individu : NoGen 4 -- id 164 -- fitness 10.187 -- gainFitness 0
+Individu : NoGen 4 -- id 167 -- fitness 10.185 -- gainFitness 0
+Individu : NoGen 4 -- id 185 -- fitness 9.878 -- gainFitness -0.365
+Member : id 167
+Member : id 164
+Member : id 147
+Member : id 185
+Member : id 142
+Member : id 145
+Member : id 135
+Member : id 61
+Member : id 86
+Member : id 81
+Member : id 90
+Mutation : NoGen 5 -- id_parent 185 -- id_mute 201
+Both : NoGen 5 -- parent1 185 -- parent2 81 -- son 206
+Cross : NoGen 5 -- parent1 185 -- parent2 4 -- son 226
+Individu : NoGen 5 -- id 201 -- fitness 9.878 -- gainFitness 0
+Individu : NoGen 5 -- id 206 -- fitness 9.878 -- gainFitness 0
+Individu : NoGen 5 -- id 226 -- fitness 9.878 -- gainFitness 0
+Member : id 226
+Member : id 147
+Member : id 167
+Member : id 201
+Member : id 206
+Member : id 164
+Member : id 145
+Member : id 185
+Both : NoGen 6 -- parent1 201 -- parent2 201 -- son 252
+Cross : NoGen 6 -- parent1 185 -- parent2 164 -- son 266
+Cross : NoGen 6 -- parent1 185 -- parent2 206 -- son 268
+Both : NoGen 6 -- parent1 201 -- parent2 206 -- son 274
+Cross : NoGen 6 -- parent1 206 -- parent2 226 -- son 277
+Both : NoGen 6 -- parent1 167 -- parent2 147 -- son 278
+Individu : NoGen 6 -- id 252 -- fitness 9.418 -- gainFitness -0.46
+Individu : NoGen 6 -- id 266 -- fitness 9.878 -- gainFitness 0
+Individu : NoGen 6 -- id 268 -- fitness 9.878 -- gainFitness 0
+Individu : NoGen 6 -- id 274 -- fitness 9.84 -- gainFitness -0.038
+Individu : NoGen 6 -- id 277 -- fitness 9.878 -- gainFitness 0
+Individu : NoGen 6 -- id 278 -- fitness 9.359 -- gainFitness -0.826
+Member : id 277
+Member : id 266
+Member : id 201
+Member : id 278
+Member : id 252
+Member : id 268
+Member : id 185
+Member : id 226
+Member : id 167
+Member : id 274
+Member : id 206
+Member : id 164
+Mutation : NoGen 7 -- id_parent 266 -- id_mute 287
+Clone : NoGen 7 -- id_parent 252 -- id_mute 289
+Both : NoGen 7 -- parent1 274 -- parent2 268 -- son 290
+Both : NoGen 7 -- parent1 277 -- parent2 274 -- son 292
+Individu : NoGen 7 -- id 287 -- fitness 8.771 -- gainFitness -1.106
+Individu : NoGen 7 -- id 289 -- fitness 9.418 -- gainFitness 0
+Individu : NoGen 7 -- id 290 -- fitness 8.757 -- gainFitness -1.102
+Individu : NoGen 7 -- id 292 -- fitness 8.477 -- gainFitness -1.381
+Member : id 292
+Member : id 290
+Member : id 287
+Member : id 289
+Member : id 266
+Member : id 226
+Member : id 274
+Member : id 206
+Member : id 268
+Member : id 277
+Member : id 185
+Member : id 252
+Member : id 278
+Both : NoGen 8 -- parent1 290 -- parent2 287 -- son 326
+Both : NoGen 8 -- parent1 292 -- parent2 135 -- son 330
+Cross : NoGen 8 -- parent1 289 -- parent2 292 -- son 334
+Mutation : NoGen 8 -- id_parent 292 -- id_mute 341
+Mutation : NoGen 8 -- id_parent 292 -- id_mute 346
+Individu : NoGen 8 -- id 326 -- fitness 8.056 -- gainFitness -0.708
+Individu : NoGen 8 -- id 330 -- fitness 8.477 -- gainFitness 0
+Individu : NoGen 8 -- id 334 -- fitness 8.448 -- gainFitness -0.5
+Individu : NoGen 8 -- id 341 -- fitness 8.26 -- gainFitness -0.218
+Individu : NoGen 8 -- id 346 -- fitness 8.477 -- gainFitness 0
+Member : id 341
+Member : id 326
+Member : id 334
+Member : id 290
+Member : id 287
+Member : id 292
+Member : id 330
+Member : id 346
+Member : id 252
+Member : id 289
+Cross : NoGen 9 -- parent1 326 -- parent2 341 -- son 375
+Cross : NoGen 9 -- parent1 334 -- parent2 292 -- son 376
+Individu : NoGen 9 -- id 375 -- fitness 7.928 -- gainFitness -0.23
+Individu : NoGen 9 -- id 376 -- fitness 7.946 -- gainFitness -0.517
+Member : id 376
+Member : id 375
+Member : id 290
+Member : id 326
+Member : id 341
+Member : id 330
+Member : id 346
+Member : id 292
+Member : id 334
+Mutation : NoGen 10 -- id_parent 375 -- id_mute 405
+Mutation : NoGen 10 -- id_parent 376 -- id_mute 406
+Both : NoGen 10 -- parent1 376 -- parent2 278 -- son 409
+Mutation : NoGen 10 -- id_parent 375 -- id_mute 417
+Individu : NoGen 10 -- id 405 -- fitness 7.928 -- gainFitness 0
+Individu : NoGen 10 -- id 406 -- fitness 7.699 -- gainFitness -0.246
+Individu : NoGen 10 -- id 409 -- fitness 7.946 -- gainFitness 0
+Individu : NoGen 10 -- id 417 -- fitness 7.928 -- gainFitness 0
+Member : id 409
+Member : id 417
+Member : id 405
+Member : id 376
+Member : id 341
+Member : id 406
+Member : id 346
+Member : id 326
+Member : id 292
+Member : id 375
+Both : NoGen 11 -- parent1 406 -- parent2 330 -- son 444
+Mutation : NoGen 11 -- id_parent 417 -- id_mute 468
+Both : NoGen 11 -- parent1 406 -- parent2 406 -- son 475
+Individu : NoGen 11 -- id 444 -- fitness 7.699 -- gainFitness 0
+Individu : NoGen 11 -- id 468 -- fitness 7.928 -- gainFitness 0
+Individu : NoGen 11 -- id 475 -- fitness 7.699 -- gainFitness 0
+Member : id 375
+Member : id 468
+Member : id 444
+Member : id 475
+Member : id 409
+Member : id 376
+Member : id 405
+Member : id 417
+Member : id 406
+Member : id 341
+Mutation : NoGen 12 -- id_parent 468 -- id_mute 486
+Mutation : NoGen 12 -- id_parent 475 -- id_mute 493
+Both : NoGen 12 -- parent1 475 -- parent2 375 -- son 499
+Both : NoGen 12 -- parent1 475 -- parent2 409 -- son 504
+Clone : NoGen 12 -- id_parent 444 -- id_mute 520
+Individu : NoGen 12 -- id 486 -- fitness 7.52 -- gainFitness -0.408
+Individu : NoGen 12 -- id 493 -- fitness 7.702 -- gainFitness 0.003
+Individu : NoGen 12 -- id 499 -- fitness 7.699 -- gainFitness 0
+Individu : NoGen 12 -- id 504 -- fitness 7.699 -- gainFitness 0
+Individu : NoGen 12 -- id 520 -- fitness 7.699 -- gainFitness 0
+Member : id 486
+Member : id 475
+Member : id 520
+Member : id 504
+Member : id 468
+Member : id 499
+Member : id 493
+Member : id 375
+Member : id 406
+Member : id 405
+Member : id 409
+Member : id 444
+Cross : NoGen 13 -- parent1 504 -- parent2 493 -- son 527
+Mutation : NoGen 13 -- id_parent 486 -- id_mute 539
+Mutation : NoGen 13 -- id_parent 406 -- id_mute 550
+Individu : NoGen 13 -- id 527 -- fitness 7.622 -- gainFitness -0.079
+Individu : NoGen 13 -- id 539 -- fitness 7.52 -- gainFitness 0
+Individu : NoGen 13 -- id 550 -- fitness 7.202 -- gainFitness -0.497
+Member : id 504
+Member : id 550
+Member : id 539
+Member : id 475
+Member : id 527
+Member : id 406
+Member : id 520
+Member : id 499
+Member : id 493
+Member : id 486
+Both : NoGen 14 -- parent1 527 -- parent2 278 -- son 562
+Mutation : NoGen 14 -- id_parent 550 -- id_mute 564
+Cross : NoGen 14 -- parent1 550 -- parent2 550 -- son 570
+Cross : NoGen 14 -- parent1 550 -- parent2 346 -- son 589
+Mutation : NoGen 14 -- id_parent 550 -- id_mute 599
+Individu : NoGen 14 -- id 562 -- fitness 7.622 -- gainFitness 0
+Individu : NoGen 14 -- id 564 -- fitness 7.202 -- gainFitness 0
+Individu : NoGen 14 -- id 570 -- fitness 7.202 -- gainFitness 0
+Individu : NoGen 14 -- id 589 -- fitness 7.202 -- gainFitness 0
+Individu : NoGen 14 -- id 599 -- fitness 7.202 -- gainFitness 0
+Member : id 486
+Member : id 570
+Member : id 539
+Member : id 599
+Member : id 527
+Member : id 589
+Member : id 564
+Member : id 562
+Member : id 504
+Member : id 550
+Cross : NoGen 15 -- parent1 564 -- parent2 562 -- son 602
+Cross : NoGen 15 -- parent1 570 -- parent2 570 -- son 611
+Cross : NoGen 15 -- parent1 570 -- parent2 599 -- son 620
+Both : NoGen 15 -- parent1 570 -- parent2 499 -- son 633
+Cross : NoGen 15 -- parent1 589 -- parent2 550 -- son 636
+Cross : NoGen 15 -- parent1 589 -- parent2 539 -- son 639
+Individu : NoGen 15 -- id 602 -- fitness 7.061 -- gainFitness -0.351
+Individu : NoGen 15 -- id 611 -- fitness 7.202 -- gainFitness 0
+Individu : NoGen 15 -- id 620 -- fitness 7.202 -- gainFitness 0
+Individu : NoGen 15 -- id 633 -- fitness 7.202 -- gainFitness 0
+Individu : NoGen 15 -- id 636 -- fitness 7.202 -- gainFitness 0
+Individu : NoGen 15 -- id 639 -- fitness 7.202 -- gainFitness 0
+Member : id 602
+Member : id 611
+Member : id 589
+Member : id 633
+Member : id 570
+Member : id 550
+Member : id 639
+Member : id 636
+Member : id 599
+Member : id 620
+Member : id 564
+Member : id 486
+Both : NoGen 16 -- parent1 602 -- parent2 620 -- son 669
+Cross : NoGen 16 -- parent1 602 -- parent2 611 -- son 670
+Clone : NoGen 16 -- id_parent 636 -- id_mute 671
+Both : NoGen 16 -- parent1 602 -- parent2 633 -- son 680
+Individu : NoGen 16 -- id 669 -- fitness 7.146 -- gainFitness 0.014
+Individu : NoGen 16 -- id 670 -- fitness 7.102 -- gainFitness -0.03
+Individu : NoGen 16 -- id 671 -- fitness 7.202 -- gainFitness 0
+Individu : NoGen 16 -- id 680 -- fitness 7.201 -- gainFitness 0.07
+Member : id 611
+Member : id 633
+Member : id 669
+Member : id 680
+Member : id 636
+Member : id 599
+Member : id 639
+Member : id 670
+Member : id 589
+Member : id 570
+Member : id 671
+Member : id 620
+Member : id 550
+Member : id 602
+Cross : NoGen 17 -- parent1 669 -- parent2 670 -- son 697
+Both : NoGen 17 -- parent1 602 -- parent2 406 -- son 702
+Both : NoGen 17 -- parent1 570 -- parent2 670 -- son 712
+Both : NoGen 17 -- parent1 602 -- parent2 671 -- son 715
+Individu : NoGen 17 -- id 697 -- fitness 7.098 -- gainFitness -0.026
+Individu : NoGen 17 -- id 702 -- fitness 7.061 -- gainFitness 0
+Individu : NoGen 17 -- id 712 -- fitness 6.829 -- gainFitness -0.323
+Individu : NoGen 17 -- id 715 -- fitness 7.127 -- gainFitness -0.004
+Member : id 670
+Member : id 712
+Member : id 697
+Member : id 715
+Member : id 599
+Member : id 669
+Member : id 702
+Member : id 620
+Member : id 680
+Member : id 570
+Member : id 550
+Member : id 589
+Member : id 671
+Member : id 611
+Member : id 602
+Cross : NoGen 18 -- parent1 712 -- parent2 405 -- son 732
+Mutation : NoGen 18 -- id_parent 702 -- id_mute 745
+Both : NoGen 18 -- parent1 712 -- parent2 680 -- son 749
+Mutation : NoGen 18 -- id_parent 712 -- id_mute 752
+Both : NoGen 18 -- parent1 715 -- parent2 702 -- son 755
+Individu : NoGen 18 -- id 732 -- fitness 6.829 -- gainFitness 0
+Individu : NoGen 18 -- id 745 -- fitness 7.061 -- gainFitness 0
+Individu : NoGen 18 -- id 749 -- fitness 6.829 -- gainFitness 0
+Individu : NoGen 18 -- id 752 -- fitness 6.829 -- gainFitness 0
+Individu : NoGen 18 -- id 755 -- fitness 6.903 -- gainFitness -0.191
+Member : id 752
+Member : id 749
+Member : id 702
+Member : id 755
+Member : id 602
+Member : id 745
+Member : id 697
+Member : id 732
+Member : id 712
+Member : id 599
+Member : id 715
+Both : NoGen 19 -- parent1 752 -- parent2 697 -- son 768
+Mutation : NoGen 19 -- id_parent 732 -- id_mute 769
+Both : NoGen 19 -- parent1 752 -- parent2 520 -- son 777
+Mutation : NoGen 19 -- id_parent 749 -- id_mute 779
+Individu : NoGen 19 -- id 768 -- fitness 6.829 -- gainFitness 0
+Individu : NoGen 19 -- id 769 -- fitness 6.829 -- gainFitness 0
+Individu : NoGen 19 -- id 777 -- fitness 6.829 -- gainFitness 0
+Individu : NoGen 19 -- id 779 -- fitness 6.829 -- gainFitness 0
+Member : id 768
+Member : id 745
+Member : id 732
+Member : id 777
+Member : id 712
+Member : id 769
+Member : id 702
+Member : id 779
+Member : id 749
+Member : id 755
+Member : id 752
+Member : id 602
+Mutation : NoGen 20 -- id_parent 777 -- id_mute 818
+Cross : NoGen 20 -- parent1 768 -- parent2 670 -- son 821
+Cross : NoGen 20 -- parent1 769 -- parent2 749 -- son 835
+Individu : NoGen 20 -- id 818 -- fitness 6.829 -- gainFitness 0
+Individu : NoGen 20 -- id 821 -- fitness 6.829 -- gainFitness 0
+Individu : NoGen 20 -- id 835 -- fitness 6.829 -- gainFitness 0
+Member : id 835
+Member : id 821
+Member : id 712
+Member : id 732
+Member : id 749
+Member : id 768
+Member : id 818
+Member : id 777
+Cross : NoGen 21 -- parent1 821 -- parent2 732 -- son 846
+Mutation : NoGen 21 -- id_parent 818 -- id_mute 863
+Both : NoGen 21 -- parent1 835 -- parent2 639 -- son 872
+Individu : NoGen 21 -- id 846 -- fitness 6.829 -- gainFitness 0
+Individu : NoGen 21 -- id 863 -- fitness 6.829 -- gainFitness 0
+Individu : NoGen 21 -- id 872 -- fitness 6.718 -- gainFitness -0.111
+Member : id 821
+Member : id 749
+Member : id 863
+Member : id 872
+Member : id 768
+Member : id 846
+Member : id 732
+Member : id 818
+Member : id 835
+Both : NoGen 22 -- parent1 846 -- parent2 745 -- son 882
+Mutation : NoGen 22 -- id_parent 768 -- id_mute 912
+Cross : NoGen 22 -- parent1 863 -- parent2 872 -- son 913
+Individu : NoGen 22 -- id 882 -- fitness 6.829 -- gainFitness 0
+Individu : NoGen 22 -- id 912 -- fitness 6.58 -- gainFitness -0.249
+Individu : NoGen 22 -- id 913 -- fitness 6.592 -- gainFitness -0.182
+Member : id 768
+Member : id 912
+Member : id 913
+Member : id 732
+Member : id 749
+Member : id 882
+Member : id 872
+Mutation : NoGen 23 -- id_parent 912 -- id_mute 937
+Cross : NoGen 23 -- parent1 913 -- parent2 882 -- son 957
+Both : NoGen 23 -- parent1 912 -- parent2 779 -- son 960
+Individu : NoGen 23 -- id 937 -- fitness 6.58 -- gainFitness 0
+Individu : NoGen 23 -- id 957 -- fitness 6.495 -- gainFitness -0.215
+Individu : NoGen 23 -- id 960 -- fitness 6.58 -- gainFitness 0
+Member : id 957
+Member : id 872
+Member : id 960
+Member : id 749
+Member : id 913
+Member : id 937
+Member : id 912
+Cross : NoGen 24 -- parent1 937 -- parent2 937 -- son 979
+Both : NoGen 24 -- parent1 957 -- parent2 960 -- son 992
+Individu : NoGen 24 -- id 979 -- fitness 6.58 -- gainFitness 0
+Individu : NoGen 24 -- id 992 -- fitness 6.555 -- gainFitness 0.018
+Member : id 979
+Member : id 937
+Member : id 992
+Member : id 960
+Member : id 957
+Member : id 913
+Member : id 912
+Mutation : NoGen 25 -- id_parent 957 -- id_mute 1004
+Both : NoGen 25 -- parent1 992 -- parent2 937 -- son 1008
+Mutation : NoGen 25 -- id_parent 957 -- id_mute 1009
+Mutation : NoGen 25 -- id_parent 957 -- id_mute 1010
+Both : NoGen 25 -- parent1 979 -- parent2 913 -- son 1031
+Individu : NoGen 25 -- id 1004 -- fitness 6.495 -- gainFitness 0
+Individu : NoGen 25 -- id 1008 -- fitness 6.555 -- gainFitness 0
+Individu : NoGen 25 -- id 1009 -- fitness 6.495 -- gainFitness 0
+Individu : NoGen 25 -- id 1010 -- fitness 6.495 -- gainFitness 0
+Individu : NoGen 25 -- id 1031 -- fitness 6.58 -- gainFitness 0
+Member : id 992
+Member : id 1010
+Member : id 1008
+Member : id 979
+Member : id 1009
+Member : id 912
+Member : id 960
+Member : id 1004
+Member : id 937
+Member : id 957
+Member : id 1031
+Cross : NoGen 26 -- parent1 957 -- parent2 957 -- son 1044
+Mutation : NoGen 26 -- id_parent 1009 -- id_mute 1063
+Both : NoGen 26 -- parent1 957 -- parent2 755 -- son 1071
+Individu : NoGen 26 -- id 1044 -- fitness 6.495 -- gainFitness 0
+Individu : NoGen 26 -- id 1063 -- fitness 6.495 -- gainFitness 0
+Individu : NoGen 26 -- id 1071 -- fitness 6.495 -- gainFitness 0
+Member : id 957
+Member : id 1071
+Member : id 1044
+Member : id 992
+Member : id 1004
+Member : id 1009
+Member : id 912
+Member : id 1010
+Member : id 1008
+Member : id 1063
+Member : id 937
+Member : id 979
+Member : id 960
+Both : NoGen 27 -- parent1 1071 -- parent2 1031 -- son 1092
+Both : NoGen 27 -- parent1 1071 -- parent2 1010 -- son 1094
+Both : NoGen 27 -- parent1 1063 -- parent2 1004 -- son 1108
+Cross : NoGen 27 -- parent1 1008 -- parent2 1044 -- son 1115
+Individu : NoGen 27 -- id 1092 -- fitness 6.495 -- gainFitness 0
+Individu : NoGen 27 -- id 1094 -- fitness 6.495 -- gainFitness 0
+Individu : NoGen 27 -- id 1108 -- fitness 6.495 -- gainFitness 0
+Individu : NoGen 27 -- id 1115 -- fitness 6.459 -- gainFitness -0.066
+Member : id 1092
+Member : id 1115
+Member : id 1094
+Member : id 1010
+Member : id 1004
+Member : id 957
+Member : id 1071
+Member : id 1063
+Member : id 1108
+Member : id 1009
+Member : id 937
+Both : NoGen 28 -- parent1 1115 -- parent2 1071 -- son 1125
+Cross : NoGen 28 -- parent1 1108 -- parent2 1092 -- son 1150
+Cross : NoGen 28 -- parent1 1115 -- parent2 1063 -- son 1156
+Individu : NoGen 28 -- id 1125 -- fitness 6.459 -- gainFitness 0
+Individu : NoGen 28 -- id 1150 -- fitness 6.495 -- gainFitness 0
+Individu : NoGen 28 -- id 1156 -- fitness 6.493 -- gainFitness 0.017
+Member : id 1092
+Member : id 1125
+Member : id 1063
+Member : id 1156
+Member : id 1071
+Member : id 1010
+Member : id 1108
+Member : id 1094
+Member : id 1150
+Member : id 957
+Member : id 1115
+Both : NoGen 29 -- parent1 1125 -- parent2 1156 -- son 1173
+Cross : NoGen 29 -- parent1 1125 -- parent2 1115 -- son 1194
+Cross : NoGen 29 -- parent1 1150 -- parent2 1115 -- son 1195
+Individu : NoGen 29 -- id 1173 -- fitness 6.451 -- gainFitness -0.025
+Individu : NoGen 29 -- id 1194 -- fitness 6.459 -- gainFitness 0
+Individu : NoGen 29 -- id 1195 -- fitness 6.441 -- gainFitness -0.035
+Member : id 957
+Member : id 1115
+Member : id 1150
+Member : id 1173
+Member : id 1071
+Member : id 1156
+Member : id 1195
+Member : id 1194
+Member : id 1125
+Cross : NoGen 30 -- parent1 1195 -- parent2 1194 -- son 1215
+Cross : NoGen 30 -- parent1 1195 -- parent2 1173 -- son 1216
+Cross : NoGen 30 -- parent1 1195 -- parent2 1173 -- son 1224
+Individu : NoGen 30 -- id 1215 -- fitness 6.436 -- gainFitness -0.014
+Individu : NoGen 30 -- id 1216 -- fitness 6.43 -- gainFitness -0.016
+Individu : NoGen 30 -- id 1224 -- fitness 6.422 -- gainFitness -0.024
+Member : id 1215
+Member : id 1224
+Member : id 1194
+Member : id 1216
+Member : id 1125
+Member : id 1173
+Member : id 1115
+Member : id 1195
+Cross : NoGen 31 -- parent1 1224 -- parent2 1094 -- son 1257
+Cross : NoGen 31 -- parent1 1224 -- parent2 1092 -- son 1274
+Individu : NoGen 31 -- id 1257 -- fitness 6.422 -- gainFitness 0
+Individu : NoGen 31 -- id 1274 -- fitness 6.422 -- gainFitness 0
+Member : id 1215
+Member : id 1257
+Member : id 1274
+Member : id 1216
+Member : id 1224
+Member : id 1173
+Member : id 1195
+Both : NoGen 32 -- parent1 1257 -- parent2 1224 -- son 1286
+Mutation : NoGen 32 -- id_parent 1274 -- id_mute 1307
+Clone : NoGen 32 -- id_parent 1274 -- id_mute 1319
+Individu : NoGen 32 -- id 1286 -- fitness 6.422 -- gainFitness 0
+Individu : NoGen 32 -- id 1307 -- fitness 6.422 -- gainFitness 0
+Individu : NoGen 32 -- id 1319 -- fitness 6.422 -- gainFitness 0
+Member : id 1257
+Member : id 1319
+Member : id 1286
+Member : id 1274
+Member : id 1224
+Member : id 1307
+Member : id 1215
+Cross : NoGen 33 -- parent1 1286 -- parent2 1307 -- son 1338
+Both : NoGen 33 -- parent1 1286 -- parent2 1319 -- son 1357
+Individu : NoGen 33 -- id 1338 -- fitness 6.422 -- gainFitness 0
+Individu : NoGen 33 -- id 1357 -- fitness 6.281 -- gainFitness -0.141
+Member : id 1319
+Member : id 1357
+Member : id 1338
+Member : id 1307
+Member : id 1274
+Member : id 1224
+Member : id 1286
+Member : id 1257
+Both : NoGen 34 -- parent1 1357 -- parent2 1216 -- son 1365
+Both : NoGen 34 -- parent1 1338 -- parent2 1215 -- son 1381
+Mutation : NoGen 34 -- id_parent 1357 -- id_mute 1389
+Cross : NoGen 34 -- parent1 1357 -- parent2 1195 -- son 1395
+Individu : NoGen 34 -- id 1365 -- fitness 6.281 -- gainFitness 0
+Individu : NoGen 34 -- id 1381 -- fitness 6.422 -- gainFitness 0
+Individu : NoGen 34 -- id 1389 -- fitness 6.281 -- gainFitness 0
+Individu : NoGen 34 -- id 1395 -- fitness 6.281 -- gainFitness 0
+Member : id 1395
+Member : id 1338
+Member : id 1381
+Member : id 1307
+Member : id 1365
+Member : id 1257
+Member : id 1389
+Member : id 1286
+Member : id 1319
+Member : id 1357
+Both : NoGen 35 -- parent1 1389 -- parent2 1115 -- son 1402
+Mutation : NoGen 35 -- id_parent 1365 -- id_mute 1411
+Cross : NoGen 35 -- parent1 1357 -- parent2 1357 -- son 1423
+Cross : NoGen 35 -- parent1 1395 -- parent2 1307 -- son 1426
+Mutation : NoGen 35 -- id_parent 1389 -- id_mute 1435
+Individu : NoGen 35 -- id 1402 -- fitness 6.281 -- gainFitness 0
+Individu : NoGen 35 -- id 1411 -- fitness 6.281 -- gainFitness 0
+Individu : NoGen 35 -- id 1423 -- fitness 6.281 -- gainFitness 0
+Individu : NoGen 35 -- id 1426 -- fitness 6.281 -- gainFitness 0
+Individu : NoGen 35 -- id 1435 -- fitness 6.281 -- gainFitness 0
+Member : id 1286
+Member : id 1411
+Member : id 1357
+Member : id 1395
+Member : id 1389
+Member : id 1423
+Member : id 1426
+Member : id 1402
+Member : id 1435
+Member : id 1365
+Member : id 1381
+Clone : NoGen 36 -- id_parent 1435 -- id_mute 1457
+Both : NoGen 36 -- parent1 1395 -- parent2 1395 -- son 1468
+Mutation : NoGen 36 -- id_parent 1395 -- id_mute 1473
+Mutation : NoGen 36 -- id_parent 1426 -- id_mute 1480
+Individu : NoGen 36 -- id 1457 -- fitness 6.281 -- gainFitness 0
+Individu : NoGen 36 -- id 1468 -- fitness 6.281 -- gainFitness 0
+Individu : NoGen 36 -- id 1473 -- fitness 6.238 -- gainFitness -0.043
+Individu : NoGen 36 -- id 1480 -- fitness 6.281 -- gainFitness 0
+Member : id 1473
+Member : id 1426
+Member : id 1389
+Member : id 1480
+Member : id 1411
+Member : id 1457
+Member : id 1468
+Member : id 1357
+Member : id 1365
+Member : id 1395
+Member : id 1435
+Member : id 1402
+Member : id 1423
+Both : NoGen 37 -- parent1 1473 -- parent2 1423 -- son 1492
+Both : NoGen 37 -- parent1 1480 -- parent2 1457 -- son 1499
+Cross : NoGen 37 -- parent1 1402 -- parent2 1473 -- son 1503
+Cross : NoGen 37 -- parent1 1473 -- parent2 1426 -- son 1506
+Individu : NoGen 37 -- id 1492 -- fitness 5.782 -- gainFitness -0.477
+Individu : NoGen 37 -- id 1499 -- fitness 6.281 -- gainFitness 0
+Individu : NoGen 37 -- id 1503 -- fitness 5.854 -- gainFitness -0.405
+Individu : NoGen 37 -- id 1506 -- fitness 6.096 -- gainFitness -0.163
+Member : id 1426
+Member : id 1402
+Member : id 1389
+Member : id 1499
+Member : id 1480
+Member : id 1506
+Member : id 1492
+Member : id 1468
+Member : id 1503
+Member : id 1411
+Member : id 1395
+Member : id 1473
+Both : NoGen 38 -- parent1 1503 -- parent2 1173 -- son 1536
+Cross : NoGen 38 -- parent1 1492 -- parent2 1492 -- son 1553
+Individu : NoGen 38 -- id 1536 -- fitness 5.854 -- gainFitness 0
+Individu : NoGen 38 -- id 1553 -- fitness 5.782 -- gainFitness 0
+Member : id 1536
+Member : id 1473
+Member : id 1553
+Member : id 1506
+Member : id 1503
+Member : id 1426
+Member : id 1411
+Member : id 1492
+Cross : NoGen 39 -- parent1 1492 -- parent2 1553 -- son 1565
+Cross : NoGen 39 -- parent1 1492 -- parent2 1503 -- son 1566
+Mutation : NoGen 39 -- id_parent 1553 -- id_mute 1567
+Cross : NoGen 39 -- parent1 1553 -- parent2 1125 -- son 1573
+Cross : NoGen 39 -- parent1 1492 -- parent2 1492 -- son 1575
+Both : NoGen 39 -- parent1 1492 -- parent2 1468 -- son 1578
+Both : NoGen 39 -- parent1 1492 -- parent2 1553 -- son 1586
+Individu : NoGen 39 -- id 1565 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 39 -- id 1566 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 39 -- id 1567 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 39 -- id 1573 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 39 -- id 1575 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 39 -- id 1578 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 39 -- id 1586 -- fitness 5.782 -- gainFitness 0
+Member : id 1565
+Member : id 1503
+Member : id 1586
+Member : id 1492
+Member : id 1536
+Member : id 1567
+Member : id 1573
+Member : id 1578
+Member : id 1575
+Member : id 1553
+Member : id 1566
+Member : id 1473
+Cross : NoGen 40 -- parent1 1575 -- parent2 1566 -- son 1607
+Both : NoGen 40 -- parent1 1575 -- parent2 1536 -- son 1617
+Mutation : NoGen 40 -- id_parent 1578 -- id_mute 1618
+Cross : NoGen 40 -- parent1 1567 -- parent2 1411 -- son 1619
+Mutation : NoGen 40 -- id_parent 1573 -- id_mute 1625
+Cross : NoGen 40 -- parent1 1578 -- parent2 1274 -- son 1626
+Both : NoGen 40 -- parent1 1573 -- parent2 1503 -- son 1630
+Cross : NoGen 40 -- parent1 1578 -- parent2 1506 -- son 1633
+Cross : NoGen 40 -- parent1 1586 -- parent2 1565 -- son 1639
+Individu : NoGen 40 -- id 1607 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 40 -- id 1617 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 40 -- id 1618 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 40 -- id 1619 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 40 -- id 1625 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 40 -- id 1626 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 40 -- id 1630 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 40 -- id 1633 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 40 -- id 1639 -- fitness 5.782 -- gainFitness 0
+Member : id 1619
+Member : id 1626
+Member : id 1607
+Member : id 1630
+Member : id 1567
+Member : id 1492
+Member : id 1639
+Member : id 1625
+Member : id 1618
+Member : id 1553
+Member : id 1617
+Member : id 1578
+Member : id 1575
+Member : id 1586
+Member : id 1566
+Member : id 1565
+Member : id 1633
+Member : id 1536
+Both : NoGen 41 -- parent1 1633 -- parent2 1626 -- son 1642
+Cross : NoGen 41 -- parent1 1567 -- parent2 1630 -- son 1648
+Cross : NoGen 41 -- parent1 1578 -- parent2 1630 -- son 1665
+Both : NoGen 41 -- parent1 1575 -- parent2 1499 -- son 1667
+Both : NoGen 41 -- parent1 1617 -- parent2 1492 -- son 1671
+Cross : NoGen 41 -- parent1 1607 -- parent2 1618 -- son 1672
+Both : NoGen 41 -- parent1 1639 -- parent2 1586 -- son 1674
+Both : NoGen 41 -- parent1 1575 -- parent2 1381 -- son 1678
+Individu : NoGen 41 -- id 1642 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 41 -- id 1648 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 41 -- id 1665 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 41 -- id 1667 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 41 -- id 1671 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 41 -- id 1672 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 41 -- id 1674 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 41 -- id 1678 -- fitness 5.782 -- gainFitness 0
+Member : id 1567
+Member : id 1492
+Member : id 1678
+Member : id 1553
+Member : id 1626
+Member : id 1648
+Member : id 1617
+Member : id 1625
+Member : id 1575
+Member : id 1671
+Member : id 1639
+Member : id 1672
+Member : id 1607
+Member : id 1565
+Member : id 1667
+Member : id 1642
+Member : id 1665
+Member : id 1618
+Member : id 1674
+Member : id 1586
+Member : id 1630
+Member : id 1566
+Member : id 1619
+Cross : NoGen 42 -- parent1 1625 -- parent2 1671 -- son 1690
+Cross : NoGen 42 -- parent1 1642 -- parent2 1492 -- son 1696
+Both : NoGen 42 -- parent1 1607 -- parent2 1457 -- son 1705
+Both : NoGen 42 -- parent1 1626 -- parent2 1639 -- son 1709
+Both : NoGen 42 -- parent1 1625 -- parent2 1672 -- son 1715
+Individu : NoGen 42 -- id 1690 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 42 -- id 1696 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 42 -- id 1705 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 42 -- id 1709 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 42 -- id 1715 -- fitness 5.782 -- gainFitness 0
+Member : id 1626
+Member : id 1639
+Member : id 1696
+Member : id 1674
+Member : id 1619
+Member : id 1709
+Member : id 1565
+Member : id 1642
+Member : id 1630
+Member : id 1575
+Member : id 1648
+Member : id 1671
+Member : id 1690
+Member : id 1667
+Member : id 1618
+Member : id 1678
+Member : id 1553
+Member : id 1715
+Member : id 1607
+Member : id 1705
+Member : id 1665
+Member : id 1617
+Member : id 1625
+Member : id 1566
+Member : id 1567
+Both : NoGen 43 -- parent1 1715 -- parent2 1553 -- son 1730
+Cross : NoGen 43 -- parent1 1678 -- parent2 1642 -- son 1737
+Cross : NoGen 43 -- parent1 1696 -- parent2 1648 -- son 1738
+Cross : NoGen 43 -- parent1 1630 -- parent2 1678 -- son 1743
+Cross : NoGen 43 -- parent1 1553 -- parent2 1705 -- son 1747
+Mutation : NoGen 43 -- id_parent 1667 -- id_mute 1749
+Individu : NoGen 43 -- id 1730 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 43 -- id 1737 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 43 -- id 1738 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 43 -- id 1743 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 43 -- id 1747 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 43 -- id 1749 -- fitness 5.782 -- gainFitness 0
+Member : id 1619
+Member : id 1567
+Member : id 1743
+Member : id 1737
+Member : id 1709
+Member : id 1690
+Member : id 1607
+Member : id 1696
+Member : id 1705
+Member : id 1674
+Member : id 1565
+Member : id 1749
+Member : id 1625
+Member : id 1667
+Member : id 1665
+Member : id 1730
+Member : id 1671
+Member : id 1738
+Member : id 1747
+Member : id 1618
+Member : id 1678
+Member : id 1626
+Mutation : NoGen 44 -- id_parent 1747 -- id_mute 1763
+Cross : NoGen 44 -- parent1 1738 -- parent2 1709 -- son 1782
+Both : NoGen 44 -- parent1 1749 -- parent2 1690 -- son 1798
+Cross : NoGen 44 -- parent1 1626 -- parent2 1743 -- son 1800
+Individu : NoGen 44 -- id 1763 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 44 -- id 1782 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 44 -- id 1798 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 44 -- id 1800 -- fitness 5.782 -- gainFitness 0
+Member : id 1738
+Member : id 1747
+Member : id 1618
+Member : id 1607
+Member : id 1678
+Member : id 1625
+Member : id 1626
+Member : id 1798
+Member : id 1743
+Member : id 1665
+Member : id 1709
+Member : id 1674
+Member : id 1782
+Member : id 1730
+Member : id 1763
+Member : id 1737
+Member : id 1800
+Member : id 1619
+Both : NoGen 45 -- parent1 1737 -- parent2 1618 -- son 1817
+Cross : NoGen 45 -- parent1 1763 -- parent2 1782 -- son 1832
+Cross : NoGen 45 -- parent1 1798 -- parent2 1738 -- son 1837
+Both : NoGen 45 -- parent1 1743 -- parent2 1782 -- son 1838
+Individu : NoGen 45 -- id 1817 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 45 -- id 1832 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 45 -- id 1837 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 45 -- id 1838 -- fitness 5.782 -- gainFitness 0
+Member : id 1832
+Member : id 1817
+Member : id 1607
+Member : id 1674
+Member : id 1747
+Member : id 1730
+Member : id 1619
+Member : id 1837
+Member : id 1743
+Member : id 1678
+Member : id 1800
+Member : id 1763
+Member : id 1838
+Member : id 1665
+Member : id 1738
+Cross : NoGen 46 -- parent1 1763 -- parent2 1674 -- son 1846
+Mutation : NoGen 46 -- id_parent 1619 -- id_mute 1848
+Cross : NoGen 46 -- parent1 1665 -- parent2 1832 -- son 1866
+Both : NoGen 46 -- parent1 1800 -- parent2 1575 -- son 1876
+Cross : NoGen 46 -- parent1 1838 -- parent2 1536 -- son 1880
+Individu : NoGen 46 -- id 1846 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 46 -- id 1848 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 46 -- id 1866 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 46 -- id 1876 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 46 -- id 1880 -- fitness 5.782 -- gainFitness 0
+Member : id 1665
+Member : id 1817
+Member : id 1866
+Member : id 1838
+Member : id 1730
+Member : id 1837
+Member : id 1674
+Member : id 1848
+Member : id 1846
+Member : id 1800
+Member : id 1880
+Member : id 1619
+Member : id 1876
+Member : id 1832
+Cross : NoGen 47 -- parent1 1665 -- parent2 1866 -- son 1887
+Both : NoGen 47 -- parent1 1837 -- parent2 1846 -- son 1905
+Mutation : NoGen 47 -- id_parent 1880 -- id_mute 1913
+Individu : NoGen 47 -- id 1887 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 47 -- id 1905 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 47 -- id 1913 -- fitness 5.782 -- gainFitness 0
+Member : id 1800
+Member : id 1905
+Member : id 1674
+Member : id 1876
+Member : id 1848
+Member : id 1913
+Member : id 1887
+Member : id 1846
+Member : id 1619
+Member : id 1817
+Member : id 1880
+Member : id 1730
+Member : id 1866
+Member : id 1665
+Cross : NoGen 48 -- parent1 1876 -- parent2 1817 -- son 1925
+Cross : NoGen 48 -- parent1 1905 -- parent2 1848 -- son 1941
+Both : NoGen 48 -- parent1 1887 -- parent2 1913 -- son 1943
+Cross : NoGen 48 -- parent1 1848 -- parent2 1800 -- son 1949
+Individu : NoGen 48 -- id 1925 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 48 -- id 1941 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 48 -- id 1943 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 48 -- id 1949 -- fitness 5.782 -- gainFitness 0
+Member : id 1619
+Member : id 1941
+Member : id 1905
+Member : id 1949
+Member : id 1880
+Member : id 1848
+Member : id 1887
+Member : id 1846
+Member : id 1943
+Member : id 1665
+Member : id 1876
+Member : id 1925
+Member : id 1730
+Cross : NoGen 49 -- parent1 1619 -- parent2 1941 -- son 1974
+Both : NoGen 49 -- parent1 1880 -- parent2 1943 -- son 1978
+Individu : NoGen 49 -- id 1974 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 49 -- id 1978 -- fitness 5.782 -- gainFitness 0
+Member : id 1846
+Member : id 1730
+Member : id 1887
+Member : id 1978
+Member : id 1974
+Member : id 1876
+Member : id 1665
+Member : id 1848
+Member : id 1941
+Member : id 1619
+Member : id 1949
+Member : id 1925
+Mutation : NoGen 50 -- id_parent 1949 -- id_mute 2006
+Cross : NoGen 50 -- parent1 1974 -- parent2 1978 -- son 2012
+Individu : NoGen 50 -- id 2006 -- fitness 5.782 -- gainFitness 0
+Individu : NoGen 50 -- id 2012 -- fitness 5.782 -- gainFitness 0
+Member : id 1887
+Member : id 1974
+Member : id 1846
+Member : id 1730
+Member : id 2012
+Member : id 1949
+Member : id 1665
+Member : id 2006
+Mutation : NoGen 51 -- id_parent 1665 -- id_mute 2061
+Individu : NoGen 51 -- id 2061 -- fitness 5.194 -- gainFitness -0.588
+Member : id 1949
+Member : id 1665
+Member : id 2006
+Member : id 2012
+Member : id 2061
+Both : NoGen 52 -- parent1 2061 -- parent2 1730 -- son 2088
+Mutation : NoGen 52 -- id_parent 2061 -- id_mute 2094
+Cross : NoGen 52 -- parent1 2061 -- parent2 2012 -- son 2100
+Both : NoGen 52 -- parent1 2061 -- parent2 1730 -- son 2117
+Individu : NoGen 52 -- id 2088 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 52 -- id 2094 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 52 -- id 2100 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 52 -- id 2117 -- fitness 5.194 -- gainFitness 0
+Member : id 2094
+Member : id 2088
+Member : id 2100
+Member : id 1665
+Member : id 1949
+Member : id 2117
+Member : id 2061
+Both : NoGen 53 -- parent1 2117 -- parent2 1846 -- son 2122
+Cross : NoGen 53 -- parent1 2100 -- parent2 2094 -- son 2132
+Both : NoGen 53 -- parent1 2117 -- parent2 1925 -- son 2134
+Cross : NoGen 53 -- parent1 2088 -- parent2 2100 -- son 2136
+Mutation : NoGen 53 -- id_parent 2117 -- id_mute 2137
+Cross : NoGen 53 -- parent1 2117 -- parent2 2061 -- son 2143
+Both : NoGen 53 -- parent1 2061 -- parent2 2100 -- son 2147
+Cross : NoGen 53 -- parent1 2088 -- parent2 2006 -- son 2149
+Both : NoGen 53 -- parent1 2088 -- parent2 2061 -- son 2155
+Individu : NoGen 53 -- id 2122 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 53 -- id 2132 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 53 -- id 2134 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 53 -- id 2136 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 53 -- id 2137 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 53 -- id 2143 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 53 -- id 2147 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 53 -- id 2149 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 53 -- id 2155 -- fitness 5.194 -- gainFitness 0
+Member : id 2155
+Member : id 2149
+Member : id 2137
+Member : id 2100
+Member : id 2136
+Member : id 2061
+Member : id 2122
+Member : id 2094
+Member : id 2134
+Member : id 2117
+Member : id 2088
+Member : id 2147
+Member : id 2132
+Member : id 2143
+Both : NoGen 54 -- parent1 2137 -- parent2 2132 -- son 2167
+Cross : NoGen 54 -- parent1 2061 -- parent2 2061 -- son 2177
+Cross : NoGen 54 -- parent1 2143 -- parent2 2147 -- son 2191
+Cross : NoGen 54 -- parent1 2122 -- parent2 2094 -- son 2193
+Both : NoGen 54 -- parent1 2155 -- parent2 1730 -- son 2197
+Both : NoGen 54 -- parent1 2134 -- parent2 2136 -- son 2200
+Individu : NoGen 54 -- id 2167 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 54 -- id 2177 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 54 -- id 2191 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 54 -- id 2193 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 54 -- id 2197 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 54 -- id 2200 -- fitness 5.194 -- gainFitness 0
+Member : id 2191
+Member : id 2061
+Member : id 2137
+Member : id 2122
+Member : id 2094
+Member : id 2088
+Member : id 2143
+Member : id 2200
+Member : id 2193
+Member : id 2100
+Member : id 2132
+Member : id 2147
+Member : id 2177
+Member : id 2197
+Member : id 2117
+Member : id 2149
+Member : id 2167
+Member : id 2155
+Cross : NoGen 55 -- parent1 2143 -- parent2 2122 -- son 2210
+Both : NoGen 55 -- parent1 2191 -- parent2 2122 -- son 2211
+Cross : NoGen 55 -- parent1 2177 -- parent2 2100 -- son 2213
+Individu : NoGen 55 -- id 2210 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 55 -- id 2211 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 55 -- id 2213 -- fitness 5.194 -- gainFitness 0
+Member : id 2177
+Member : id 2143
+Member : id 2149
+Member : id 2167
+Member : id 2211
+Member : id 2094
+Member : id 2197
+Member : id 2200
+Member : id 2122
+Member : id 2210
+Member : id 2193
+Member : id 2155
+Member : id 2213
+Member : id 2147
+Member : id 2132
+Member : id 2191
+Mutation : NoGen 56 -- id_parent 2167 -- id_mute 2248
+Cross : NoGen 56 -- parent1 2132 -- parent2 2210 -- son 2258
+Cross : NoGen 56 -- parent1 2149 -- parent2 2197 -- son 2260
+Both : NoGen 56 -- parent1 2197 -- parent2 2094 -- son 2264
+Cross : NoGen 56 -- parent1 2211 -- parent2 2193 -- son 2265
+Both : NoGen 56 -- parent1 2200 -- parent2 2094 -- son 2267
+Individu : NoGen 56 -- id 2248 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 56 -- id 2258 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 56 -- id 2260 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 56 -- id 2264 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 56 -- id 2265 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 56 -- id 2267 -- fitness 5.194 -- gainFitness 0
+Member : id 2155
+Member : id 2191
+Member : id 2213
+Member : id 2258
+Member : id 2177
+Member : id 2260
+Member : id 2147
+Member : id 2149
+Member : id 2248
+Member : id 2267
+Member : id 2132
+Member : id 2197
+Member : id 2193
+Member : id 2264
+Member : id 2094
+Member : id 2167
+Member : id 2210
+Member : id 2265
+Mutation : NoGen 57 -- id_parent 2260 -- id_mute 2298
+Cross : NoGen 57 -- parent1 2264 -- parent2 2167 -- son 2309
+Individu : NoGen 57 -- id 2298 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 57 -- id 2309 -- fitness 5.194 -- gainFitness 0
+Member : id 2213
+Member : id 2197
+Member : id 2258
+Member : id 2298
+Member : id 2309
+Member : id 2265
+Member : id 2191
+Member : id 2167
+Member : id 2177
+Member : id 2248
+Member : id 2094
+Member : id 2267
+Member : id 2155
+Cross : NoGen 58 -- parent1 2265 -- parent2 2309 -- son 2325
+Cross : NoGen 58 -- parent1 2258 -- parent2 2094 -- son 2349
+Cross : NoGen 58 -- parent1 2265 -- parent2 2298 -- son 2356
+Individu : NoGen 58 -- id 2325 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 58 -- id 2349 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 58 -- id 2356 -- fitness 5.194 -- gainFitness 0
+Member : id 2267
+Member : id 2258
+Member : id 2094
+Member : id 2349
+Member : id 2265
+Member : id 2298
+Member : id 2213
+Member : id 2248
+Member : id 2167
+Member : id 2356
+Member : id 2309
+Member : id 2325
+Clone : NoGen 59 -- id_parent 2213 -- id_mute 2379
+Both : NoGen 59 -- parent1 2356 -- parent2 2248 -- son 2395
+Individu : NoGen 59 -- id 2379 -- fitness 5.194 -- gainFitness 0
+Individu : NoGen 59 -- id 2395 -- fitness 5.074 -- gainFitness -0.12
+Member : id 2356
+Member : id 2094
+Member : id 2213
+Member : id 2395
+Member : id 2379
+Member : id 2258
+Member : id 2349
+Member : id 2167
+Cross : NoGen 60 -- parent1 2395 -- parent2 2193 -- son 2419
+Individu : NoGen 60 -- id 2419 -- fitness 5.074 -- gainFitness 0
+Member : id 2379
+Member : id 2419
+Member : id 2258
+Member : id 2356
+Member : id 2395
+Cross : NoGen 61 -- parent1 2419 -- parent2 2379 -- son 2465
+Individu : NoGen 61 -- id 2465 -- fitness 4.839 -- gainFitness -0.295
+Member : id 2395
+Member : id 2465
+Member : id 2258
+Member : id 2419
+Mutation : NoGen 62 -- id_parent 2465 -- id_mute 2483
+Mutation : NoGen 62 -- id_parent 2465 -- id_mute 2492
+Mutation : NoGen 62 -- id_parent 2465 -- id_mute 2501
+Both : NoGen 62 -- parent1 2465 -- parent2 2349 -- son 2503
+Individu : NoGen 62 -- id 2483 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 62 -- id 2492 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 62 -- id 2501 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 62 -- id 2503 -- fitness 4.839 -- gainFitness 0
+Member : id 2483
+Member : id 2503
+Member : id 2419
+Member : id 2501
+Member : id 2492
+Member : id 2465
+Member : id 2395
+Cross : NoGen 63 -- parent1 2503 -- parent2 2061 -- son 2523
+Both : NoGen 63 -- parent1 2492 -- parent2 2501 -- son 2529
+Both : NoGen 63 -- parent1 2501 -- parent2 2267 -- son 2532
+Cross : NoGen 63 -- parent1 2503 -- parent2 2501 -- son 2543
+Both : NoGen 63 -- parent1 2465 -- parent2 2325 -- son 2545
+Cross : NoGen 63 -- parent1 2483 -- parent2 2483 -- son 2546
+Mutation : NoGen 63 -- id_parent 2503 -- id_mute 2552
+Mutation : NoGen 63 -- id_parent 2465 -- id_mute 2557
+Mutation : NoGen 63 -- id_parent 2503 -- id_mute 2559
+Individu : NoGen 63 -- id 2523 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 63 -- id 2529 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 63 -- id 2532 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 63 -- id 2543 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 63 -- id 2545 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 63 -- id 2546 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 63 -- id 2552 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 63 -- id 2557 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 63 -- id 2559 -- fitness 4.839 -- gainFitness 0
+Member : id 2419
+Member : id 2559
+Member : id 2465
+Member : id 2557
+Member : id 2501
+Member : id 2552
+Member : id 2532
+Member : id 2545
+Member : id 2543
+Member : id 2523
+Member : id 2529
+Member : id 2492
+Member : id 2503
+Member : id 2483
+Member : id 2546
+Both : NoGen 64 -- parent1 2545 -- parent2 2501 -- son 2568
+Cross : NoGen 64 -- parent1 2483 -- parent2 2559 -- son 2570
+Mutation : NoGen 64 -- id_parent 2492 -- id_mute 2576
+Mutation : NoGen 64 -- id_parent 2543 -- id_mute 2577
+Both : NoGen 64 -- parent1 2546 -- parent2 2483 -- son 2579
+Cross : NoGen 64 -- parent1 2559 -- parent2 2532 -- son 2586
+Cross : NoGen 64 -- parent1 2532 -- parent2 2543 -- son 2587
+Individu : NoGen 64 -- id 2568 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 64 -- id 2570 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 64 -- id 2576 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 64 -- id 2577 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 64 -- id 2579 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 64 -- id 2586 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 64 -- id 2587 -- fitness 4.839 -- gainFitness 0
+Member : id 2523
+Member : id 2570
+Member : id 2492
+Member : id 2586
+Member : id 2568
+Member : id 2545
+Member : id 2587
+Member : id 2483
+Member : id 2543
+Member : id 2529
+Member : id 2577
+Member : id 2532
+Member : id 2501
+Member : id 2503
+Member : id 2552
+Member : id 2579
+Member : id 2576
+Member : id 2546
+Member : id 2557
+Both : NoGen 65 -- parent1 2570 -- parent2 2576 -- son 2607
+Cross : NoGen 65 -- parent1 2579 -- parent2 2543 -- son 2614
+Both : NoGen 65 -- parent1 2503 -- parent2 2483 -- son 2616
+Mutation : NoGen 65 -- id_parent 2587 -- id_mute 2624
+Both : NoGen 65 -- parent1 2587 -- parent2 2557 -- son 2633
+Cross : NoGen 65 -- parent1 2579 -- parent2 2568 -- son 2634
+Individu : NoGen 65 -- id 2607 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 65 -- id 2614 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 65 -- id 2616 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 65 -- id 2624 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 65 -- id 2633 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 65 -- id 2634 -- fitness 4.839 -- gainFitness 0
+Member : id 2545
+Member : id 2614
+Member : id 2587
+Member : id 2529
+Member : id 2557
+Member : id 2552
+Member : id 2503
+Member : id 2624
+Member : id 2579
+Member : id 2483
+Member : id 2576
+Member : id 2586
+Member : id 2501
+Member : id 2616
+Member : id 2634
+Member : id 2577
+Member : id 2568
+Member : id 2607
+Member : id 2633
+Member : id 2492
+Member : id 2523
+Cross : NoGen 66 -- parent1 2624 -- parent2 2614 -- son 2644
+Both : NoGen 66 -- parent1 2633 -- parent2 2577 -- son 2645
+Cross : NoGen 66 -- parent1 2616 -- parent2 2634 -- son 2656
+Both : NoGen 66 -- parent1 2552 -- parent2 2523 -- son 2666
+Individu : NoGen 66 -- id 2644 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 66 -- id 2645 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 66 -- id 2656 -- fitness 4.839 -- gainFitness 0
+Individu : NoGen 66 -- id 2666 -- fitness 4.839 -- gainFitness 0
+Member : id 2666
+Member : id 2523
+Member : id 2634
+Member : id 2586
+Member : id 2607
+Member : id 2645
+Member : id 2624
+Member : id 2656
+Member : id 2577
+Member : id 2644
+Member : id 2587
+Member : id 2552
+Member : id 2616
+Member : id 2576
+Member : id 2501
+Member : id 2529
+Member : id 2503
+Member : id 2633
+Member : id 2483
+Member : id 2614
+Member : id 2545
+Both : NoGen 67 -- parent1 2656 -- parent2 2644 -- son 2687
+Individu : NoGen 67 -- id 2687 -- fitness 4.771 -- gainFitness -0.068
+Member : id 2633
+Member : id 2501
+Member : id 2656
+Member : id 2687
+Member : id 2483
+Member : id 2634
+Member : id 2586
+Member : id 2645
+Member : id 2614
+Member : id 2545
+Member : id 2624
+Member : id 2587
+Member : id 2666
+Cross : NoGen 68 -- parent1 2687 -- parent2 2687 -- son 2722
+Mutation : NoGen 68 -- id_parent 2687 -- id_mute 2736
+Individu : NoGen 68 -- id 2722 -- fitness 4.771 -- gainFitness 0
+Individu : NoGen 68 -- id 2736 -- fitness 4.771 -- gainFitness 0
+Member : id 2722
+Member : id 2736
+Member : id 2586
+Member : id 2545
+Member : id 2645
+Member : id 2501
+Member : id 2666
+Member : id 2624
+Member : id 2687
+Both : NoGen 69 -- parent1 2722 -- parent2 2586 -- son 2764
+Mutation : NoGen 69 -- id_parent 2687 -- id_mute 2775
+Mutation : NoGen 69 -- id_parent 2722 -- id_mute 2779
+Mutation : NoGen 69 -- id_parent 2722 -- id_mute 2786
+Both : NoGen 69 -- parent1 2687 -- parent2 2736 -- son 2793
+Individu : NoGen 69 -- id 2764 -- fitness 4.771 -- gainFitness 0
+Individu : NoGen 69 -- id 2775 -- fitness 4.771 -- gainFitness 0
+Individu : NoGen 69 -- id 2779 -- fitness 4.771 -- gainFitness 0
+Individu : NoGen 69 -- id 2786 -- fitness 4.771 -- gainFitness 0
+Individu : NoGen 69 -- id 2793 -- fitness 4.771 -- gainFitness 0
+Member : id 2775
+Member : id 2736
+Member : id 2687
+Member : id 2779
+Member : id 2793
+Member : id 2722
+Member : id 2764
+Member : id 2624
+Member : id 2786
+Member : id 2545
+Member : id 2586
+Member : id 2645
+Cross : NoGen 70 -- parent1 2764 -- parent2 2786 -- son 2802
+Both : NoGen 70 -- parent1 2775 -- parent2 2764 -- son 2813
+Both : NoGen 70 -- parent1 2779 -- parent2 2624 -- son 2822
+Individu : NoGen 70 -- id 2802 -- fitness 4.771 -- gainFitness 0
+Individu : NoGen 70 -- id 2813 -- fitness 4.653 -- gainFitness -0.117
+Individu : NoGen 70 -- id 2822 -- fitness 4.771 -- gainFitness 0
+Member : id 2722
+Member : id 2793
+Member : id 2786
+Member : id 2813
+Member : id 2687
+Member : id 2779
+Member : id 2802
+Member : id 2822
+Member : id 2764
+Member : id 2736
+Member : id 2775
+Mutation : NoGen 71 -- id_parent 2813 -- id_mute 2864
+Cross : NoGen 71 -- parent1 2802 -- parent2 2793 -- son 2866
+Individu : NoGen 71 -- id 2864 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 71 -- id 2866 -- fitness 4.771 -- gainFitness 0
+Member : id 2864
+Member : id 2802
+Member : id 2779
+Member : id 2822
+Member : id 2764
+Member : id 2813
+Member : id 2775
+Member : id 2793
+Member : id 2722
+Member : id 2866
+Cross : NoGen 72 -- parent1 2813 -- parent2 2666 -- son 2900
+Clone : NoGen 72 -- id_parent 2813 -- id_mute 2902
+Cross : NoGen 72 -- parent1 2813 -- parent2 2813 -- son 2916
+Mutation : NoGen 72 -- id_parent 2813 -- id_mute 2918
+Cross : NoGen 72 -- parent1 2864 -- parent2 2529 -- son 2919
+Individu : NoGen 72 -- id 2900 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 72 -- id 2902 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 72 -- id 2916 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 72 -- id 2918 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 72 -- id 2919 -- fitness 4.653 -- gainFitness 0
+Member : id 2916
+Member : id 2793
+Member : id 2813
+Member : id 2902
+Member : id 2764
+Member : id 2919
+Member : id 2779
+Member : id 2918
+Member : id 2775
+Member : id 2822
+Member : id 2866
+Member : id 2900
+Member : id 2864
+Cross : NoGen 73 -- parent1 2918 -- parent2 2919 -- son 2926
+Cross : NoGen 73 -- parent1 2864 -- parent2 2916 -- son 2928
+Cross : NoGen 73 -- parent1 2919 -- parent2 2919 -- son 2935
+Cross : NoGen 73 -- parent1 2918 -- parent2 2813 -- son 2937
+Both : NoGen 73 -- parent1 2813 -- parent2 2775 -- son 2938
+Both : NoGen 73 -- parent1 2919 -- parent2 2866 -- son 2946
+Cross : NoGen 73 -- parent1 2900 -- parent2 2916 -- son 2950
+Cross : NoGen 73 -- parent1 2902 -- parent2 2822 -- son 2951
+Cross : NoGen 73 -- parent1 2864 -- parent2 2902 -- son 2957
+Cross : NoGen 73 -- parent1 2902 -- parent2 2916 -- son 2958
+Both : NoGen 73 -- parent1 2919 -- parent2 2607 -- son 2960
+Individu : NoGen 73 -- id 2926 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 73 -- id 2928 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 73 -- id 2935 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 73 -- id 2937 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 73 -- id 2938 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 73 -- id 2946 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 73 -- id 2950 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 73 -- id 2951 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 73 -- id 2957 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 73 -- id 2958 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 73 -- id 2960 -- fitness 4.653 -- gainFitness 0
+Member : id 2935
+Member : id 2938
+Member : id 2926
+Member : id 2919
+Member : id 2813
+Member : id 2900
+Member : id 2960
+Member : id 2864
+Member : id 2950
+Member : id 2928
+Member : id 2764
+Member : id 2902
+Member : id 2918
+Member : id 2946
+Member : id 2951
+Member : id 2957
+Member : id 2937
+Member : id 2958
+Member : id 2779
+Member : id 2916
+Cross : NoGen 74 -- parent1 2958 -- parent2 2937 -- son 2966
+Both : NoGen 74 -- parent1 2951 -- parent2 2645 -- son 2967
+Cross : NoGen 74 -- parent1 2928 -- parent2 2938 -- son 2978
+Both : NoGen 74 -- parent1 2957 -- parent2 2864 -- son 2979
+Both : NoGen 74 -- parent1 2950 -- parent2 2950 -- son 2993
+Both : NoGen 74 -- parent1 2916 -- parent2 2919 -- son 3000
+Individu : NoGen 74 -- id 2966 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 74 -- id 2967 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 74 -- id 2978 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 74 -- id 2979 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 74 -- id 2993 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 74 -- id 3000 -- fitness 4.653 -- gainFitness 0
+Member : id 2919
+Member : id 2937
+Member : id 2978
+Member : id 2979
+Member : id 2946
+Member : id 2960
+Member : id 2926
+Member : id 2918
+Member : id 2902
+Member : id 2993
+Member : id 2935
+Member : id 3000
+Member : id 2928
+Member : id 2813
+Member : id 2900
+Member : id 2951
+Member : id 2916
+Member : id 2966
+Member : id 2938
+Member : id 2957
+Member : id 2967
+Cross : NoGen 75 -- parent1 2967 -- parent2 2935 -- son 3003
+Both : NoGen 75 -- parent1 2960 -- parent2 2979 -- son 3008
+Cross : NoGen 75 -- parent1 3000 -- parent2 2951 -- son 3015
+Cross : NoGen 75 -- parent1 2966 -- parent2 2993 -- son 3019
+Individu : NoGen 75 -- id 3003 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 75 -- id 3008 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 75 -- id 3015 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 75 -- id 3019 -- fitness 4.653 -- gainFitness 0
+Member : id 2916
+Member : id 2946
+Member : id 3003
+Member : id 3019
+Member : id 2918
+Member : id 2967
+Member : id 2960
+Member : id 2926
+Member : id 3008
+Member : id 3015
+Member : id 2902
+Member : id 2919
+Cross : NoGen 76 -- parent1 3019 -- parent2 2946 -- son 3053
+Both : NoGen 76 -- parent1 3015 -- parent2 2978 -- son 3062
+Individu : NoGen 76 -- id 3053 -- fitness 4.653 -- gainFitness 0
+Individu : NoGen 76 -- id 3062 -- fitness 4.653 -- gainFitness 0
+Member : id 3008
+Member : id 3015
+Member : id 2926
+Member : id 3062
+Member : id 3053
+Member : id 2960
+Member : id 2918
+Member : id 2902
+Member : id 2916
+Both : NoGen 77 -- parent1 2926 -- parent2 3008 -- son 3098
+Cross : NoGen 77 -- parent1 3062 -- parent2 3053 -- son 3113
+Individu : NoGen 77 -- id 3098 -- fitness 4.51 -- gainFitness -0.143
+Individu : NoGen 77 -- id 3113 -- fitness 4.653 -- gainFitness 0
+Member : id 3113
+Member : id 3015
+Member : id 3098
+Member : id 2902
+Member : id 3062
+Member : id 2918
+Both : NoGen 78 -- parent1 3098 -- parent2 3113 -- son 3121
+Both : NoGen 78 -- parent1 3098 -- parent2 3098 -- son 3128
+Both : NoGen 78 -- parent1 3098 -- parent2 3003 -- son 3131
+Individu : NoGen 78 -- id 3121 -- fitness 4.6 -- gainFitness 0.018
+Individu : NoGen 78 -- id 3128 -- fitness 4.51 -- gainFitness 0
+Individu : NoGen 78 -- id 3131 -- fitness 4.51 -- gainFitness 0
+Member : id 3121
+Member : id 3131
+Member : id 3113
+Member : id 3128
+Member : id 2902
+Member : id 3015
+Member : id 3098
+Both : NoGen 79 -- parent1 3098 -- parent2 3131 -- son 3171
+Cross : NoGen 79 -- parent1 3121 -- parent2 3128 -- son 3175
+Both : NoGen 79 -- parent1 3131 -- parent2 2938 -- son 3180
+Individu : NoGen 79 -- id 3171 -- fitness 4.51 -- gainFitness 0
+Individu : NoGen 79 -- id 3175 -- fitness 4.483 -- gainFitness -0.073
+Individu : NoGen 79 -- id 3180 -- fitness 4.51 -- gainFitness 0
+Member : id 3180
+Member : id 3128
+Member : id 3175
+Member : id 3015
+Member : id 3098
+Member : id 3171
+Member : id 3121
+Member : id 3131
+Cross : NoGen 80 -- parent1 3175 -- parent2 2937 -- son 3207
+Both : NoGen 80 -- parent1 3171 -- parent2 3180 -- son 3228
+Individu : NoGen 80 -- id 3207 -- fitness 4.483 -- gainFitness 0
+Individu : NoGen 80 -- id 3228 -- fitness 4.51 -- gainFitness 0
+Member : id 3098
+Member : id 3207
+Member : id 3180
+Member : id 3228
+Member : id 3171
+Member : id 3131
+Member : id 3128
+Member : id 3175
+Mutation : NoGen 81 -- id_parent 3175 -- id_mute 3243
+Mutation : NoGen 81 -- id_parent 3207 -- id_mute 3280
+Individu : NoGen 81 -- id 3243 -- fitness 4.483 -- gainFitness 0
+Individu : NoGen 81 -- id 3280 -- fitness 4.401 -- gainFitness -0.081
+Member : id 3175
+Member : id 3180
+Member : id 3228
+Member : id 3280
+Member : id 3098
+Member : id 3171
+Member : id 3131
+Member : id 3207
+Member : id 3243
+Both : NoGen 82 -- parent1 3243 -- parent2 3207 -- son 3318
+Cross : NoGen 82 -- parent1 3280 -- parent2 3228 -- son 3320
+Individu : NoGen 82 -- id 3318 -- fitness 4.46 -- gainFitness -0.023
+Individu : NoGen 82 -- id 3320 -- fitness 4.401 -- gainFitness 0
+Member : id 3320
+Member : id 3171
+Member : id 3318
+Member : id 3228
+Member : id 3175
+Member : id 3243
+Member : id 3280
+Member : id 3207
+Member : id 3180
+Mutation : NoGen 83 -- id_parent 3280 -- id_mute 3327
+Cross : NoGen 83 -- parent1 3280 -- parent2 3318 -- son 3328
+Cross : NoGen 83 -- parent1 3280 -- parent2 3131 -- son 3339
+Both : NoGen 83 -- parent1 3280 -- parent2 3128 -- son 3347
+Clone : NoGen 83 -- id_parent 3320 -- id_mute 3352
+Individu : NoGen 83 -- id 3327 -- fitness 4.401 -- gainFitness 0
+Individu : NoGen 83 -- id 3328 -- fitness 4.436 -- gainFitness 0.006
+Individu : NoGen 83 -- id 3339 -- fitness 4.401 -- gainFitness 0
+Individu : NoGen 83 -- id 3347 -- fitness 4.401 -- gainFitness 0
+Individu : NoGen 83 -- id 3352 -- fitness 4.401 -- gainFitness 0
+Member : id 3328
+Member : id 3347
+Member : id 3352
+Member : id 3280
+Member : id 3327
+Member : id 3207
+Member : id 3318
+Member : id 3339
+Member : id 3175
+Member : id 3243
+Member : id 3320
+Member : id 3228
+Both : NoGen 84 -- parent1 3328 -- parent2 3327 -- son 3361
+Mutation : NoGen 84 -- id_parent 3327 -- id_mute 3372
+Both : NoGen 84 -- parent1 3352 -- parent2 3318 -- son 3396
+Mutation : NoGen 84 -- id_parent 3347 -- id_mute 3398
+Individu : NoGen 84 -- id 3361 -- fitness 4.389 -- gainFitness -0.03
+Individu : NoGen 84 -- id 3372 -- fitness 4.401 -- gainFitness 0
+Individu : NoGen 84 -- id 3396 -- fitness 4.401 -- gainFitness 0
+Individu : NoGen 84 -- id 3398 -- fitness 4.401 -- gainFitness 0
+Member : id 3320
+Member : id 3372
+Member : id 3327
+Member : id 3339
+Member : id 3398
+Member : id 3243
+Member : id 3352
+Member : id 3347
+Member : id 3318
+Member : id 3361
+Member : id 3396
+Member : id 3328
+Mutation : NoGen 85 -- id_parent 3396 -- id_mute 3426
+Individu : NoGen 85 -- id 3426 -- fitness 4.401 -- gainFitness 0
+Member : id 3320
+Member : id 3352
+Member : id 3426
+Member : id 3339
+Member : id 3398
+Member : id 3396
+Member : id 3327
+Member : id 3361
+Cross : NoGen 86 -- parent1 3361 -- parent2 3426 -- son 3448
+Both : NoGen 86 -- parent1 3398 -- parent2 3372 -- son 3453
+Both : NoGen 86 -- parent1 3361 -- parent2 3339 -- son 3472
+Both : NoGen 86 -- parent1 3361 -- parent2 2967 -- son 3480
+Individu : NoGen 86 -- id 3448 -- fitness 4.391 -- gainFitness -0.004
+Individu : NoGen 86 -- id 3453 -- fitness 4.401 -- gainFitness 0
+Individu : NoGen 86 -- id 3472 -- fitness 4.389 -- gainFitness 0
+Individu : NoGen 86 -- id 3480 -- fitness 4.389 -- gainFitness 0
+Member : id 3472
+Member : id 3480
+Member : id 3448
+Member : id 3361
+Member : id 3453
+Member : id 3398
+Member : id 3339
+Member : id 3352
+Member : id 3396
+Cross : NoGen 87 -- parent1 3472 -- parent2 3175 -- son 3486
+Mutation : NoGen 87 -- id_parent 3448 -- id_mute 3494
+Individu : NoGen 87 -- id 3486 -- fitness 4.389 -- gainFitness 0
+Individu : NoGen 87 -- id 3494 -- fitness 4.383 -- gainFitness -0.009
+Member : id 3494
+Member : id 3480
+Member : id 3448
+Member : id 3361
+Member : id 3486
+Member : id 3339
+Member : id 3352
+Member : id 3396
+Member : id 3472
+Both : NoGen 88 -- parent1 3494 -- parent2 3453 -- son 3532
+Both : NoGen 88 -- parent1 3480 -- parent2 3486 -- son 3549
+Individu : NoGen 88 -- id 3532 -- fitness 4.383 -- gainFitness 0
+Individu : NoGen 88 -- id 3549 -- fitness 4.389 -- gainFitness 0
+Member : id 3532
+Member : id 3549
+Member : id 3480
+Member : id 3448
+Member : id 3472
+Member : id 3494
+Member : id 3486
+Both : NoGen 89 -- parent1 3532 -- parent2 3549 -- son 3597
+Individu : NoGen 89 -- id 3597 -- fitness 4.375 -- gainFitness -0.011
+Member : id 3532
+Member : id 3597
+Member : id 3549
+Member : id 3494
+Member : id 3486
+Member : id 3494
+Member : id 3532
+Member : id 3597
+Member : id 3597
+Member : id 3494
+Member : id 3597
+Member : id 3597

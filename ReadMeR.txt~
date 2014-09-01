@@ -1,0 +1,24 @@
+*************************************------*************************************
+*************************************||****||***********************************
+*************************************------*************************************
+*************************************||\\***************************************
+*************************************||**\\*************************************
+*************************************||****\\***********************************
+
+Pour utiliser R un script est donné, scriptexp.R .
+
+Il suppose que vous avez utilisé easea pout touner n fois une expérience et que la ième expérience est rangée dans chemin_de_l_experience/experimenti. Il faut donc indiquer ce chemin dans scriptexp.R ainisi que changer le nombre d'expérience si besoin est.
+
+Il suppose aussi que vous avez généré les fichiers csv associés avec pour chaque expérience le même nom. Il faut aussi indiquer ce nom dans scriptexp.R.
+
+D'autres informations à la fin du script peuvent être renseignés pour changer l'affichage comme la couleur du graphe, le nombre de fenêtre...
+
+Un exemple de script pour tourner ce genre d'expérience est présent dans easeaMultiIslandOneMachine/examples/weierstass_exploite, scriptexp.sh.
+
+
+
+
+
+________________________________________________________________________________
+Une question ?? un problème ?? hgilbert@ensta.fr
+--------------------------------------------------------------------------------  
